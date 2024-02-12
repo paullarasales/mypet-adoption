@@ -48,18 +48,28 @@
                 </div>
             </div>
             <!--Content-->
-            <div class="flex justify-evenly w-full h-4/5 mt-5">
+            <div class="flex items-center justify-evenly w-full h-4/5">
                 <!--Left-->
-                <div class="flex items-center justify-center w-1/3">
-                    <h1 class="text-5xl font-bold tracking-wide">
+                <div class="flex items-center justify-center w-5/12">
+                    <h1 class="text-5xl font-semibold tracking-wide">
                         Discover the joy of finding your perfect furry friend for a lifetime of love and companionship.
                     </h1>
                 </div>
                 <!--Right-->
-                <div class="flex items-center w-3/6">
-                    <h2 class="text-3xl font-semibold">
-                        Explore a variety of pets available for adoption and find out how you can provide them with a permanent loving home.
-                    </h2>
+                <div class="flex flex-col justify-center items-center w-5/12 h-2/3">
+                    <div class="flex flex-col items-center h-1/2 w-full">
+                        <h2 class="text-3xl font-semibold">
+                            Explore a variety of pets available for adoption and find out how you can provide them with a permanent loving home.
+                        </h2>
+                    </div>
+                    <div class="flex flex-row items-center justify-start w-full gap-2 mb-2">
+                        <button class="h-10 w-32 bg-black text-white">
+                            Browse
+                        </button>
+                        <button class="h-10 w-32 border-2 border-black text-black">
+                            Learn More
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
